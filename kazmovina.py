@@ -29,7 +29,7 @@ def pure_hate():
     print(title, "je stále mrdka a má:", rating, " na ČSFD od", rating_person_element, "lidi." )
     
   else:
-    print("Rip dude")
+    print("Rip dude, response code je:", response.status_code)
 
 
 if __name__ == "__main__":
